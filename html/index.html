@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Dice Game</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <div id="slider-container">
+    <input type="range" id="number-slider" min="1" max="100" value="50">
+
+    <div class="boxes">
+      <div class="number-box" id="current">50</div>
+      <div class="number-box result-box" id="result"></div>
+    </div>
+  </div>
+
+  <div class="controls">
+    <button id="lower">Lower</button>
+    <button id="higher">Higher</button>
+  </div>
+
+  <div id="message">Make a choise</div>
+
+  <script defer src="/js/script.js"></script>
+</body>
+</html>
